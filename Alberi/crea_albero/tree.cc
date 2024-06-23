@@ -2,8 +2,8 @@
 
 using namespace std;
 
-#include "tipo.h"
-#include "tree.h"
+#include "includes/tipo.h"
+#include "includes/tree.h"
 
 node* new_node(tipo_inf const i){
     node *n = new node;
@@ -24,3 +24,18 @@ void insert_sibling(node *n, tree sibling){
     n->nextSibling=sibling;
 }
 
+tipo_inf get_info(node *n){
+    return n->inf;
+}
+
+node* get_parent(node *n){
+    return n->parent;
+}
+
+node *getFirstChild(node *n){
+    return n->firstChild;
+}
+
+node *getNextSibling(node *n){
+    return n->nextSibling;
+}

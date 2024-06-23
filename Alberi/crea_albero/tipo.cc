@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "tipo.h"
+#include "includes/tipo.h"
 
 using namespace std;
 
