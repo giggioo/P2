@@ -10,9 +10,10 @@ using namespace std;
 
 
 int main(int argc, char const *argv[]){
-
-    tree t = new_node("Luca");
-    node *n = new_node("Paolo");
+    
+    tree t=NULL;
+    t=new_node("Luca");
+    node* n=new_node("Paolo");
     insert_child(t,n);
     n = new_node("Marco");
     insert_sibling(t->firstChild,n);

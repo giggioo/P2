@@ -5,7 +5,7 @@ using namespace std;
 #include "includes/tipo.h"
 #include "includes/tree.h"
 
-node* new_node(tipo_inf const i){
+node* new_node(tipo_inf i){
     node *n = new node;
     copy(n->inf,i);
     n->firstChild=n->nextSibling=n->parent=NULL;
