@@ -1,0 +1,3 @@
+compito.o: compito.cc liste.h appuntamento.h
+liste.o: liste.cc liste.h appuntamento.h
+appuntamento.o: appuntamento.cc appuntamento.h

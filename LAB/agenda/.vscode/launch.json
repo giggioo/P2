@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug with GDB (compito)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/compito", // Percorso all'eseguibile "compito"
+            "args": ["agenda.txt"], // Argomento "agenda.txt"
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+        }
+    ]
+}
